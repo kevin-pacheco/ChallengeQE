@@ -44,9 +44,10 @@ Follow these steps to run the automated tests:
    - Ensure you have the necessary prerequisites installed, including Java and Maven.
    - Make sure you have the WebDriver for your preferred browser (e.g., Chrome, Firefox) installed and configured.
 2. **Clone the Repository**:
-`git clone https://github.com/yourusername/.git`
-`cd your-qa-automation-project`
-3. **Run Tests**:
+`git clone https://github.com/kevin-pacheco/ChallengeQE.git`
+`cd ChallengeQE`
+
+4. **Run Tests**:
 - To run all tests, use the following command:
   ```
   mvn test
