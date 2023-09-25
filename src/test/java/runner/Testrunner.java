@@ -11,7 +11,7 @@ import static cucumber.api.SnippetType.CAMELCASE;
 @CucumberOptions(
         glue = {"seleniumgluecode"},
         features = "src/test/java/features",
-        tags = "@OrderDetails"
+        tags = "@test"
 )
 public class Testrunner extends Hooks {
 

@@ -58,9 +58,9 @@ public class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    protected void waitForElementToBeSelected(WebElement element){
+    protected void waitForElementToDissapear(WebElement element){
         wait = new WebDriverWait(driver,45);
-        wait.until(ExpectedConditions.elementToBeSelected(element));
+        wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
     protected void waitForVisibilityOfAllElements(List<WebElement> elements){

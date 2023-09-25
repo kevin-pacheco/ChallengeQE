@@ -9,6 +9,7 @@ Feature: Filter orders
     Then the user is logged in
     And the user is in the orders page
 
+  @test
   Scenario Outline: Filter orders by status
     When the user filter orders by status "<status>"
     Then the user should see the orders filtered by the status "<status>"

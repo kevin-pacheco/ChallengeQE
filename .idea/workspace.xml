@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d223f2be-4e7f-4987-a3ed-1664eeab9cae" name="Changes" comment="search orders &amp; filter orders working">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/order_details.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Background.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppCoding/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/OrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/OrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppCoding/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/filter_orders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/filter_orders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/order_details.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/order_details.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/search_orders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/search_orders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/OrdersPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,15 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Filter orders by status" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Clearing the search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/filter_orders.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search_orders.feature" />
       <option name="GLUE" value="seleniumgluecode" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="AppCoding" />
-      <option name="NAME_FILTER" value="^Filter orders by status$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Filter orders by status$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Filter orders by status" />
+      <option name="NAME_FILTER" value="^Clearing the search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Clearing the search$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Clearing the search" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,15 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Searching an order by a string (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Filter orders by status" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search_orders.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/filter_orders.feature" />
       <option name="GLUE" value="seleniumgluecode" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="AppCoding" />
-      <option name="NAME_FILTER" value="^Searching an order by a string$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Searching an order by a string$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Searching an order by a string" />
+      <option name="NAME_FILTER" value="^Filter orders by status$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Filter orders by status$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Filter orders by status" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -166,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Testrunner" />
+        <item itemvalue="Cucumber Java.Scenario: Clearing the search" />
         <item itemvalue="Cucumber Java.Feature: filter_orders" />
         <item itemvalue="Cucumber Java.Scenario: Filter orders by status" />
         <item itemvalue="Cucumber Java.Feature: search_orders" />
-        <item itemvalue="Cucumber Java.Scenario: Searching an order by a string (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -1,5 +1,5 @@
-@OpenOrders
-Feature: Open orders
+@SearchOrders
+Feature: Search orders
   As a customer, I want to be able to see my orders
 
   Background: user is logged in
@@ -9,10 +9,12 @@ Feature: Open orders
     Then the user is logged in
     And the user is in the orders page
 
+  @test
   Scenario: Searching an order by a string
     When the user searches for "AppDirect"
     Then the user should see the orders that contains "AppDirect"
 
+  @test
   Scenario: Clearing the search
     Given the user searches for "AppDirect"
     When the user clears the search

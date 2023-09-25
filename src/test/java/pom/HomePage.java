@@ -14,6 +14,10 @@ public class HomePage extends BasePage{
 
     @FindBy(css = "a[href='/channel/marketplace#entitlements'")
     private WebElement ordersBtnBilling;
+
+    @FindBy(css = "div.loading-overlay-container")
+    private WebElement loadingOverlay;
+
     public HomePage(WebDriver driver) { super(driver);}
 
     public void selectOperationsFromNav(){
@@ -28,6 +32,7 @@ public class HomePage extends BasePage{
 
     public void selectOrdersFromBilling() {
         waitForElementToBeClickable(ordersBtnBilling);
+        waitFor(2);
         ordersBtnBilling.click();
     }
 }

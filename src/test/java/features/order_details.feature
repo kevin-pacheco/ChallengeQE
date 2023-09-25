@@ -9,6 +9,7 @@ Feature: Order details
     Then the user is logged in
     And the user is in the orders page
 
+  @test
   Scenario: Show order details
     When the user selects one of the orders available
     And the user opens the details of the order
