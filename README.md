@@ -57,7 +57,3 @@ Follow these steps to run the automated tests:
   ```
   mvn test -Dcucumber.filter.tags="@FilterOrders"
   ```
-
-## Tests
-
-Explain how to run the automated tests for this system.
