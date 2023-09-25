@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d223f2be-4e7f-4987-a3ed-1664eeab9cae" name="Changes" comment="build maven">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/filter_orders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/search_orders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/OrdersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/driverManager/ChromeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/driverManager/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/driverManager/DriverManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/driverManager/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/driverManager/FireFoxDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d223f2be-4e7f-4987-a3ed-1664eeab9cae" name="Changes" comment="search orders &amp; filter orders working">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/order_details.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppCoding/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/OrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/OrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumgluecode/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695314335759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="search orders &amp; filter orders working">
+      <created>1695451990261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695451990261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +212,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="build maven" />
+    <MESSAGE value="search orders &amp; filter orders working" />
+    <option name="LAST_COMMIT_MESSAGE" value="search orders &amp; filter orders working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

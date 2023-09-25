@@ -40,6 +40,12 @@ public class OrdersPage extends BasePage{
     @FindBys(@FindBy(xpath = "//div[label[contains(text(),'Status')]]//select[@aria-label='select']//option"))
     private List<WebElement> optionsFromSelect;
 
+    @FindBy(css = "a[data-auto='more_details_link']")
+    private WebElement moreDetailsButton;
+
+    @FindBy(css = "div.invoice-table tbody")
+    private WebElement itemsTable;
+
     public OrdersPage(WebDriver driver) { super(driver);}
 
     public boolean orderTitleIsDisplayed(){
@@ -94,4 +100,24 @@ public class OrdersPage extends BasePage{
         waitFor(4);
         return statusNameList.stream().filter(element -> element.getText().contains(text)).count()>0;
     }
+
+    public void selectOrderByIndex(int index) throws Exception {
+        waitFor(2);
+        if (ordersList.size()>=index){
+            ordersList.get(index).click();
+        }else {
+            throw new Exception("Index out of bounds");
+        }
+    }
+
+    public void openOrderDetails(){
+        waitForElementToBeClickable(moreDetailsButton);
+        moreDetailsButton.click();
+    }
+
+    public boolean itemsTableIsDisplayed(){
+        waitForElementToBeClickable(itemsTable);
+        return itemsTable.isDisplayed();
+    }
+
 }

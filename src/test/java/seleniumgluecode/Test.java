@@ -77,4 +77,24 @@ public class Test extends TestBase{
     }
 
 
+    // ------------------------
+    // Orders Details Feature
+    // ------------------------
+    @When("^the user selects one of the orders available$")
+    public void the_user_selects_one_of_the_orders_available() throws Throwable {
+        ordersPage.selectOrderByIndex(1);
+    }
+
+    @When("^the user opens the details of the order$")
+    public void the_user_opens_the_details_of_the_order() throws Throwable {
+        ordersPage.openOrderDetails();
+    }
+
+    @Then("^the user should see the details of the order selected$")
+    public void the_user_should_see_the_details_of_the_order_selected() throws Throwable {
+        Assert.assertTrue(ordersPage.itemsTableIsDisplayed());
+    }
+
+
+
 }
